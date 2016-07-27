@@ -11,7 +11,7 @@ if ($_POST) {
 	$weight_input = ($_POST['weight_input'])+0.0;
 	// Create var from conversion selection.
 	$weight_conv = $_POST['weight_choices'];
-	// Create new instance of disterature class using weight_input.
+	// Create new instance of Weight class using weight_input.
 	$weight1 = new Weight($weight_input);
 
 	if ($weight_conv == "st_to_lb") {

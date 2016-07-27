@@ -11,7 +11,7 @@ if ($_POST) {
 	$dist_input = ($_POST['dist_input'])+0.0;
 	// Create var from conversion selection.
 	$dist_conv = $_POST['dist_choices'];
-	// Create new instance of disterature class using dist_input.
+	// Create new instance of Distance class using dist_input.
 	$dist1 = new Distance($dist_input);
 
 	if ($dist_conv == "k_to_m") {
